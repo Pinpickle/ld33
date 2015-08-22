@@ -15,7 +15,7 @@ class HUD extends Entity {
     }
 
     override public function render() {
-        Draw.rectPlus(10, HXP.height - 20, cast ((HXP.width - 20) * player.energy / player.maxEnergy), 10, 0xFFFFFF);
+        Draw.rectPlus(10 + HXP.camera.x, HXP.height - 20 + HXP.camera.y, cast ((HXP.width - 20) * player.energy / player.maxEnergy), 10, 0xFFFFFF);
     }
 
 }

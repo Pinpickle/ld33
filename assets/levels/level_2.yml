@@ -1,0 +1,13 @@
+layers:
+  objects:
+  - type: door
+    x: 216
+    y: 240
+    doorid: 0
+    tolevel: level_1
+    todoor: 0
+  walls:
+  - x: 96
+    y: 240
+    width: 240
+    height: 48

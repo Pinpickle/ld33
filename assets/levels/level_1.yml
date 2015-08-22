@@ -9,6 +9,9 @@ layers:
   - type: door
     x: 480
     y: 168
+    doorid: 0
+    tolevel: level_2
+    todoor: 0
   walls:
   - x: 72
     y: 120

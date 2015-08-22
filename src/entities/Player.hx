@@ -56,6 +56,8 @@ class Player extends PhysicsEntity {
         }
 
         super.update();
+
+        HXP.setCamera(x - HXP.width / 2, y - HXP.height / 2);
     }
 
     override public function render() {
