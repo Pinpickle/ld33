@@ -1,0 +1,11 @@
+layers:
+  objects:
+  - type: player
+    x: 100
+    y: 80
+  walls:
+  - x: 72
+    y: 120
+    placement:
+      width: 10
+      height: 3

@@ -1,0 +1,17 @@
+layers:
+- name: objects
+- name: walls
+  defaultObject: wall
+
+defaults:
+  width: 720
+  height: 720
+
+objects:
+  player:
+    width: 20
+    height: 20
+    shape: ellipse
+  wall:
+    color: brown
+    origin: [0, 0]
