@@ -17,6 +17,7 @@ class Main extends Engine
 		Input.define("right", [Key.RIGHT, Key.D]);
 		Input.define("up", [Key.UP, Key.W, Key.SPACE]);
 		Input.define("down", [Key.DOWN, Key.S]);
+		Input.define('action', [Key.Z]);
 
 		HXP.scene = new scenes.MainScene();
 	}
