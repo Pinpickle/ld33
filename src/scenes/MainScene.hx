@@ -1,6 +1,11 @@
+package scenes;
+
 import com.haxepunk.Scene;
 import leveled.LeveledParser;
 import openfl.Assets;
+
+import entities.Wall;
+import entities.Player;
 
 class MainScene extends Scene
 {

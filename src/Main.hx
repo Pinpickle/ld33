@@ -1,3 +1,5 @@
+package ;
+
 import com.haxepunk.Engine;
 import com.haxepunk.HXP;
 import com.haxepunk.utils.Input;
@@ -16,7 +18,7 @@ class Main extends Engine
 		Input.define("up", [Key.UP, Key.W, Key.SPACE]);
 		Input.define("down", [Key.DOWN, Key.S]);
 
-		HXP.scene = new MainScene();
+		HXP.scene = new scenes.MainScene();
 	}
 
 	public static function main() { new Main(); }
